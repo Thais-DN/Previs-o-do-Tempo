@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,500;1,600&display=swap" rel="stylesheet">
+    <title>Previsão do Tempo</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="conteudo" onclick="pesquisarCidade()">
+        <input class="input_cidade" placeholder="Digite o nome da cidade">
+        <button class="button_buscar">
+            <img class="img_buscar" src="img/buscar.png" width="20px" alt="pesquisar">
+        </button>
+        
+        <div class="info_tempo">
+        <h2 class="cidade">Tempo em São Paulo</h2>
+        <p class="temperatura">21°C</p>
+
+        <div class="descricao_tempo">
+            <img class="img-previsao" src="img/nublado.png" width="40px" alt="icone-tempo"> <p class="txt_previsao">Nublado</p>
+        </div>
+
+        <p class="umidade">Umidade: 76%</p>
+    </div>
+    </div>
+    
+</body>
+</html>
